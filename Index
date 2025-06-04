@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareCircle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CareCircle</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#peer-circles">Peer Circles</a></li>
+                <li><a href="#resource-exchange">Resource Exchange</a></li>
+                <li><a href="#burnout-check-in">Burnout Check-In</a></li>
+                <li><a href="#caregiver-stories">Caregiver Stories</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to CareCircle</h2>
+            <p            <div class="tiles">
+                <div class="tile">Peer Circles</div>
+                <div class="tile">Resource Exchange</div>
+                <div class="tile">Burnout Check-In</div>
+                <div class="tile">Upcoming Meetups</div>
+            </div>
+            <p class="quote">"You’re doing better than you think."</p>
+        </section>
+        <section id="peer-circles">
+            <h2>Peer Circles</h2>
+            <p>Join or create circles based on condition, role, language, or region.</p>
+        </section>
+        <section id="resource-exchange">
+            <h2>Resource Exchange</h2>
+            <p>Curated articles, videos, and tools. Community-submitted tips and local services map.</p>
+        </section>
+        <section id="burnout-check-in">
+            <h2>Burnout Check-In</h2>
+            <p>Mood tracker, daily reflection prompts, and journaling tools.</p>
+        </section>
+        <section id="caregiver-stories">
+            <h2>Caregiver Stories</h2>
+            <p>Share personal stories, lessons learned, and moments of joy or struggle.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 CareCircle. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
